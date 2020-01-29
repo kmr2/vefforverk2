@@ -1,19 +1,19 @@
 {% extends "base.html" %}
 
-{% block title %} frettir dagsins {% endblock %}
+{% block title %} Frettir dagsins {% endblock %}
 
 {% block content %}
 
 <div class="row">
-        <section>
+    <section>
             <h1>{{ frettir[1][1] }}</h1>
             <img src="/static/mynd1.jpg">
     </section>
     <section class="padding">
-        <h3>frettir dagsins</h3>
+        <h3 class="ft">Frettir dagsins</h3>
         <ul>
             {% for item in frettir %}
-            <li><a href="/frett/{{ item[0] }}"> {{ item[1] }}</a></li>
+            <li class="ft"><a href="/frett/{{ item[0] }}"> {{ item[1] }}</a></li>
             {% endfor %}
         </ul>
     </section>

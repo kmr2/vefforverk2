@@ -2,13 +2,14 @@
 .error {
     color:red
 }
-
 .row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:2em;
 }
-
+body {
+    background-color: coral;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -23,14 +24,22 @@ body {
     padding:0 8em;
     
 }
-
+a:link {
+    text-decoration: none;
+}
 .fotur{
     border: 1px dotted;
     text-align: center;
     margin-top:5em;
+    background-color: rgb(255, 112, 60);
 }
 .haus {
     margin-bottom:1em;
     border: 1px dotted;
     text-align: center;
+    background-color: rgb(255, 112, 60);
+}
+.ft {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 15px;   
 }
