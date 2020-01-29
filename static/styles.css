@@ -1,5 +1,36 @@
-h1 {color:blue}
-h2 {color: green}
+
 .error {
     color:red
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.padding {
+    padding-top:3em;
+}
+
+body {
+    margin: 0 auto;
+    padding:0 8em;
+    
+}
+
+.fotur{
+    border: 1px dotted;
+    text-align: center;
+    margin-top:5em;
+}
+.haus {
+    margin-bottom:1em;
+    border: 1px dotted;
+    text-align: center;
 }
